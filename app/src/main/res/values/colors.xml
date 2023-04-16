@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Standard Android Colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Custom BookWise Palette -->
+    <color name="claret">#6E0D25</color>
+    <color name="cream">#FFFFB3</color>
+    <color name="earth_yellow">#DCAB6B</color>
+    <color name="sepia">#774E24</color>
+    <color name="seal_brown">#6A381F</color>
+    <color name="dark_blue">#0c0d18</color>
+    <color name="peach">#FFC49B</color>
+    <color name = "plum">#2CF6B3</color>
+    <color name="falu_red">#800E13</color>
+    <color name="auburn">#AD2831</color>
+    <color name="lion">#AF9164</color>
+    <color name="cosmic_latte">#F7F3E3</color>
+    <color name="purpureus"> #A833B9</color>
+    <color name="pistachio"> #88D18A</color>
+    <color name="teaGreen">  #CCDDB7</color>
+    <color name="french_grey">  #ADB6C4</color>
+    <color name="charcoal">#294C60</color>
+    <color name="papaya_whip">#FFEFD3</color>
+    <color name="silver">#C2C5C8</color>
+    <color name="light_green">#ACECA1</color>
+    <color name="carribean_current">#246A73</color>
+    <color name="rose_taupe"> #885053</color>
+
+
+</resources>

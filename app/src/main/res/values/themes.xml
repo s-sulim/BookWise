@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BookWise" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/dark_blue</item>
+        <item name="colorPrimaryVariant">@color/earth_yellow</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/sepia</item>
+        <item name="colorSecondaryVariant">@color/seal_brown</item>
+        <item name="colorOnSecondary">@color/cream</item>
+        <!-- Tertiary brand color. -->
+        <item name="colorTertiary">@color/earth_yellow</item>
+        <item name="colorOnTertiary">@color/seal_brown</item>
+        <item name="colorTertiaryContainer">@color/seal_brown</item>
+        <item name="colorOnTertiaryContainer">@color/earth_yellow</item>
+        <!-- Buttons color.    -->
+        <item name="colorButtonNormal">@color/claret</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/dark_blue</item>
+        <!-- Background color. -->
+        <item name="colorOnBackground">@color/white</item>
+    </style>
+
+</resources>

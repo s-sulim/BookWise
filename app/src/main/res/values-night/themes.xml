@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BookWise" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/cosmic_latte</item>
+        <item name="colorPrimaryVariant">@color/papaya_whip</item>
+        <item name="colorOnPrimary">@color/sepia</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/french_grey</item>
+        <item name="colorSecondaryVariant">@color/peach</item> <!-- CV Color -->
+        <item name="colorOnSecondary">@color/peach</item> <!-- Toolbar color -->
+        <!-- Tertiary brand color. -->
+        <item name="colorTertiary">@color/french_grey</item>
+        <item name="colorOnTertiary">@color/peach</item>
+        <item name="colorTertiaryContainer">@color/seal_brown</item>
+        <item name="colorOnTertiaryContainer">@color/earth_yellow</item>
+        <!-- Buttons color.    -->
+        <item name="colorButtonNormal">@color/charcoal</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/dark_blue</item>
+        <!-- Background color. -->
+        <item name="colorOnBackground">@color/dark_blue</item>
+    </style>
+</resources>

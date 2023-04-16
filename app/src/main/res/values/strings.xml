@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BookWise</string>
+    <string name="welcome_message">\nWelcome to BookWise!</string>
+    <string name="set_goal">What is your reading goal?</string>
+    <string name="et_name_hint">Type here</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
