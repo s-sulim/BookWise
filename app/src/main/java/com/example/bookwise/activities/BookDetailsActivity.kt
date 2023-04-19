@@ -32,6 +32,8 @@ class BookDetailsActivity : AppCompatActivity() {
     private lateinit var tvTheme:TextView
     private lateinit var tvThemeText:TextView
     private lateinit var tvIdeaText:TextView
+    private lateinit var tvThemeIcon: TextView
+    private lateinit var tvIdeaIcon: TextView
     private lateinit var tvMyQuotes:TextView
     private lateinit var tvBookTitle: TextView
     private lateinit var tvNoQuotes: TextView
@@ -75,6 +77,8 @@ class BookDetailsActivity : AppCompatActivity() {
         tvMyQuotes = findViewById(R.id.tvMyQuotes)
         tvThemeText = findViewById(R.id.tvThemeText)
         tvIdeaText = findViewById(R.id.tvIdeaText)
+        tvIdeaIcon = findViewById(R.id.tvIdeaIcon)
+        tvThemeIcon = findViewById(R.id.tvThemeIcon)
         tvNoQuotes = findViewById(R.id.tvNoQuotes)
 
         /*        Initializing RecyclerView      */
@@ -134,12 +138,41 @@ class BookDetailsActivity : AppCompatActivity() {
             dialog.arguments = bundle
             dialog.show(supportFragmentManager,"customFragment")
         }
+        tvIdeaText.setOnClickListener{
+            var dialog = AddIdeaFragment()
+            val bundle = Bundle()
+            bundle.putString("Current Book Idea", currentBook.favoriteIdea)
+            dialog.arguments = bundle
+            dialog.show(supportFragmentManager,"customFragment")
+        }
+        tvIdeaIcon.setOnClickListener{
+            var dialog = AddIdeaFragment()
+            val bundle = Bundle()
+            bundle.putString("Current Book Idea", currentBook.favoriteIdea)
+            dialog.arguments = bundle
+            dialog.show(supportFragmentManager,"customFragment")
+        }
         tvTheme.setOnClickListener{
             var dialog = AddThemeFragment()
             val bundle = Bundle()
             bundle.putString("Current Book Theme", currentBook.theme)
             dialog.arguments = bundle
             dialog.show(supportFragmentManager,"customFragment")
+        }
+        tvThemeText.setOnClickListener{
+            var dialog = AddThemeFragment()
+            val bundle = Bundle()
+            bundle.putString("Current Book Theme", currentBook.theme)
+            dialog.arguments = bundle
+            dialog.show(supportFragmentManager,"customFragment")
+        }
+        tvThemeIcon.setOnClickListener{
+            var dialog = AddThemeFragment()
+            val bundle = Bundle()
+            bundle.putString("Current Book Theme", currentBook.theme)
+            dialog.arguments = bundle
+            dialog.show(supportFragmentManager,"customFragment")
+
         }
         tvMyQuotes.setOnClickListener{
             var dialog = AddQuoteFragment()
